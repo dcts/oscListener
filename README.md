@@ -18,5 +18,9 @@ You need to have Processing installed. Also you will need to install `oscP5` (a 
 
 If you run into problems feel free to open an issue, I'm glad to help.
 
-### Demo
+### Yotube-Demo
 
+[Link to Youtube-Demo](https://youtu.be/pqAowDbvelY) <br>
+
+### Screenshot
+<img src="https://user-images.githubusercontent.com/44790691/54577312-87793f80-49fb-11e9-9aa9-d8ed1f4710cf.jpeg" width="300px">
