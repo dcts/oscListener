@@ -1,16 +1,13 @@
 import oscP5.*;
-//import netP5.*;
 
 OscP5 oscP5;
-//NetAddress myRemoteLocation;
 Keyboard k;
 
 void setup() {
-  /* start oscP5, listening for incoming messages at port 12000 */
-  oscP5 = new OscP5(this,4559);
-  
-  // setup keyboard writer
   try {
+    // start oscP5, listening for incoming messages at port 4559
+    oscP5 = new OscP5(this,4559);
+    // setup keyboard writer
     k = new Keyboard();
     Thread.sleep(1000);
   } catch (Exception e) {
@@ -18,26 +15,34 @@ void setup() {
   }
 }
 
-/* incoming osc message are forwarded to the oscEvent method. */
+// incoming osc message are forwarded to the oscEvent method. 
 void oscEvent(OscMessage theOscMessage) {
-  /* print the address pattern and the typetag of the received OscMessage */
-  //print("### received an osc message.");
-  //print(" addrpattern: "+theOscMessage.addrPattern());
-  //println(" typetag: "+theOscMessage.typetag());
-  if (theOscMessage.addrPattern().equals("/1/toggle1")) {
-    println("pushed button 1");
-    k.pressKey("f", 100);
-  }
-  if (theOscMessage.addrPattern().equals("/1/toggle2")) {
-    println("pushed button 2");
-    k.pressKey("j", 100);
-  }
-  if (theOscMessage.addrPattern().equals("/1/toggle3")) {
-    println("pushed button 3");
+  // print OSC Message
+  theOscMessage.print();
+  
+  // listen for OSC messages
+  if (theOscMessage.addrPattern().equals("/play")) {
     k.pressKey("k", 100);
   }
-  if (theOscMessage.addrPattern().equals("/1/toggle4")) {
-    println("pushed button 4");
+  if (theOscMessage.addrPattern().equals("/back")) {
+    k.pressKey("j", 100);
+  }
+  if (theOscMessage.addrPattern().equals("/skip")) {
     k.pressKey("l", 100);
+  }
+  if (theOscMessage.addrPattern().equals("/fullscreen")) {
+    k.pressKey("f", 100);
+  }
+  if (theOscMessage.addrPattern().equals("/subtitles")) {
+    k.pressKey("c", 100);
+  }
+  if (theOscMessage.addrPattern().equals("/mute")) {
+    k.pressKey("m", 100);
+  }
+  if (theOscMessage.addrPattern().equals("/vol-up")) {
+    k.pressKey("UP", 100);
+  }
+  if (theOscMessage.addrPattern().equals("/vol-down")) {
+    k.pressKey("DOWN", 100);
   }
 }
