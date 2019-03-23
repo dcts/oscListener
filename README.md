@@ -1,6 +1,6 @@
 # OSC Listener
 
-With this simple processing scetch you can display any messages recieved by OSC to a canvas. The folders of this repository contain:
+With this simple processing scetch you can display any messages recieved by OSC to a canvas. This repository has the following structure:
 
 ```
 ├── oscListener.pde 
@@ -15,20 +15,20 @@ With this simple processing scetch you can display any messages recieved by OSC 
 ```
 
 
-### Installation
+## Installation
 
-To get this to work, you can either run the executable of your operating system or run the `oscListener.pde` with [processing](https://processing.org/). Once the program runs, be sure that the sending device (e.g. your phone) is connected to the same wifi network than the recieving device (your computer)! OSC only works when connected to the same network.
+To get this to work, you can either run the executable of your operating system or run the `oscListener.pde` with [processing](https://processing.org/). Once the program runs, be sure that the sending device (e.g. your phone) is connected to the same wifi network as the recieving device (your computer)! **OSC only works when connected to the same network**.
 
-### TouchOSC
+## TouchOSC
 
 You can for example use the [**TouchOSC**](https://itunes.apple.com/us/app/touchosc/id288120394) iPhone app (also availible on android). Heres a short demo of the setup and usage
 
-**SETUP**
-To make this work you need to insert the displayed IP address as well as the port in your app like shown here:<br>
+### Setup
+To make this work you need to insert the IP address and port that is displayed by the oscListener programm in your TouchOSC app like shown here:<br><br>
 <img width="250px" src="https://user-images.githubusercontent.com/44790691/54867559-c7d11880-4d81-11e9-9a8b-80d7cb0fdce2.gif">
 
-**USAGE**
-This screencapture demonstration was recorded using the Windows 64bit executable and TouchOSC v1.9.10:<br>
-<img width="400px" src="https://user-images.githubusercontent.com/44790691/54867304-129d6100-4d7f-11e9-9892-c5daefa10a08.gif">
+### Usage
+This screencapture demonstration was recorded using the Windows 64bit executable and TouchOSC v1.9.10:<br><br>
+<img width="600px" src="https://user-images.githubusercontent.com/44790691/54867304-129d6100-4d7f-11e9-9892-c5daefa10a08.gif">
 
 
