@@ -24,7 +24,7 @@ To get this to work, you can either run the executable of your operating system 
 You can for example use the [**TouchOSC**](https://itunes.apple.com/us/app/touchosc/id288120394) iPhone app (also availible on android). Heres a short demo of the setup and usage
 
 ### Setup
-To make this work you need to insert the IP address and port that is displayed by the oscListener programm in your TouchOSC app like shown here:<br><br>
+When the program runs, you can see the recieving IP address and port displayed in the canvas. You then need to insert these information in your TouchOSC app like shown here:<br><br>
 <img width="250px" src="https://user-images.githubusercontent.com/44790691/54867559-c7d11880-4d81-11e9-9a8b-80d7cb0fdce2.gif">
 
 ### Usage
