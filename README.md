@@ -25,10 +25,10 @@ You can for example use the [**TouchOSC**](https://itunes.apple.com/us/app/touch
 
 ### Setup
 When the program runs, you can see the recieving IP address and port displayed in the canvas. You then need to insert these information in your TouchOSC app like shown here:<br><br>
-<img width="250px" src="https://user-images.githubusercontent.com/44790691/54867559-c7d11880-4d81-11e9-9a8b-80d7cb0fdce2.gif">
+<img width="250px" src="">
 
 ### Usage
 This screencapture demonstration was recorded using the Windows 64bit executable and TouchOSC v1.9.10:<br><br>
-<img width="600px" src="https://user-images.githubusercontent.com/44790691/54867304-129d6100-4d7f-11e9-9892-c5daefa10a08.gif">
+<img width="600px" src="">
 
 
