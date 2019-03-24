@@ -17,7 +17,7 @@ With this simple processing scetch you can display any messages recieved by OSC 
 
 ## Installation
 
-To get this to work, you can either run the executable of your operating system (you will need to have [Java installed](https://www.java.com/en/download/)) or run the `oscListener.pde` with [processing](https://processing.org/). If you run the processing scetch you will additionaly have to install the [oscP5](https://github.com/sojamo/oscp5) library (find the installation instructions [here](http://www.sojamo.de/libraries/oscP5/#installation)). Once the program runs, be sure that the sending device (e.g. your phone) is connected to the same wifi network as the recieving device (your computer)! **OSC only works when connected to the same network**.
+To get this to work, you can either run the executable of your operating system (you will need to have [Java installed](https://www.java.com/en/download/)) or run the `oscListener.pde` with [processing](https://processing.org/). If you run the processing scetch you will additionaly have to install the [oscP5](https://github.com/sojamo/oscp5) library (find the installation instructions [here](http://www.sojamo.de/libraries/oscP5/#installation)). Once the program runs, be sure that the sending device (e.g. your phone) is connected to the same wifi network as the recieving device (your computer)! **OSC only works when both devices are connected to the same network**.
 
 ## TouchOSC
 
